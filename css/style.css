@@ -1,0 +1,47 @@
+body
+{
+    font-family: 'segoe ui light'
+}
+
+.item
+{
+    background-color: orange;
+    position: relative;
+}
+.itm-caption
+{
+    background-color: #fff;
+    position: absolute ;
+    width: 80%;
+    left: 10%;
+    bottom: 20px;
+    text-align: center;
+}
+.lightbox-layer
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none !important;
+}
+.show
+{
+    display: flex  !important;
+
+}
+.lightbox-item
+{
+    width: 50%;
+    height: 500px;
+    background-image: url(../imge/portfolio-1.jpg) ;
+    background-size: 100% 100%;
+}
+#wClose
+{
+ position:absolute;
+ right: 20px;
+ top: 20px ;  
+}
